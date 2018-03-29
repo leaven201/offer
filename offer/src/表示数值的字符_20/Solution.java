@@ -1,4 +1,4 @@
-package 表示数值的字符;
+package 表示数值的字符_20;
 
 public class Solution {
 	public boolean isNumeric(char[] str) {
