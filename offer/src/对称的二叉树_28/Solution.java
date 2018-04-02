@@ -17,13 +17,7 @@ public class Solution {
 		}
 		return isSymmetrical(pRoot1.left,pRoot2.right)&&isSymmetrical(pRoot1.right,pRoot2.left);
 	}
-	public static void print(TreeNode node) {
-		if(node==null)
-			return;
-		System.out.println(node.val);
-		print(node.left);
-		print(node.right);
-	}
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -40,7 +34,7 @@ public class Solution {
           node2.right=node5;
           node3.left=node6;
           node3.right=node7;
-          print(node1);
+
           
 	}
 
